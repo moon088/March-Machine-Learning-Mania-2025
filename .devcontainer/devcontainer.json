@@ -1,0 +1,18 @@
+// .devcontainer/devcontainer.json
+{
+  "name": "Kaggle Dev Container",
+  "dockerComposeFile": [
+    "../compose.cpu.yaml" // GPU用 or "compose.cpu.yaml" // CPU用
+  ],
+  "service": "kaggle-cpu", // docker-compose で定義しているサービス名
+  "workspaceFolder": "/workspace", // or "/kaggle/working" など
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  // remoteEnv / other settings...
+  "extensions": [
+    "ms-python.python",
+    "ms-toolsai.jupyter"
+  ],
+  "remoteUser": "root" // ユーザー設定 (rootでOKならそのまま)
+}

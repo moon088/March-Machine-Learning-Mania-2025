@@ -1,0 +1,29 @@
+2025-03-04 04:30:08.181621
+2023_3rdsolution_1stfeature
+これはbase(exp003)に1stplace 特徴量入れたもの
+
+mean_iteration: 519.8
+mean_val_mae: 9.39631649738116
+min_val_mae: 9.366682159519113
+
+最適ブーストラウンド: [525, 572, 516, 542, 625, 496, 405, 496, 471, 550]
+検証MAE: [9.39637699504038, 9.392842616031652, 9.388012535287768, 9.3700351038296, 9.366682159519113, 9.394460625507481, 9.447131351682, 9.390444726604422, 9.405179234511177, 9.411999625798]
+
+Normal Spline - logloss of cvsplit 0: 0.5145
+Normal Spline - logloss of cvsplit 1: 0.5145
+Normal Spline - logloss of cvsplit 2: 0.5143
+Normal Spline - logloss of cvsplit 3: 0.5136
+Normal Spline - logloss of cvsplit 4: 0.5151
+Normal Spline - logloss of cvsplit 5: 0.5159
+Normal Spline - logloss of cvsplit 6: 0.5156
+Normal Spline - logloss of cvsplit 7: 0.5141
+Normal Spline - logloss of cvsplit 8: 0.5155
+Normal Spline - logloss of cvsplit 9: 0.5156
+Average Normal Spline logloss: 0.5149
+
+Pred mean: 0.156117073732736
+
+Brier Score: 0.19160422259778187
+
+実行時間： 1326.4秒
+0.18046

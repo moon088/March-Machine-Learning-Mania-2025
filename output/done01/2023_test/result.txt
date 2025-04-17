@@ -1,0 +1,24 @@
+2025-03-10 09:58:10.069767
+2023_test
+これはbase(exp003)
+
+mean_iteration: 435.0
+mean_val_mae: 9.492430310674102
+min_val_mae: 9.481443293362975
+
+最適ブーストラウンド: [473, 397]
+test-mae-mean: [9.503417327985227, 9.481443293362975]
+
+Normal Spline - logloss of cvsplit 0: 0.5131
+Normal Spline - logloss of cvsplit 1: 0.5123
+Average Normal Spline logloss: 0.5127
+Tournament matchups only - Pred Mean:, 0.4990819003291975
+
+Tournament matchups only - Pred Mean:, 0.4990819003291975
+
+
+Pred mean: 0.1614530351785766
+
+Brier Score: 0.18187086585386839
+
+実行時間： 62.0秒

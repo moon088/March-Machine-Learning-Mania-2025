@@ -1,0 +1,144 @@
+name: "flip_predict"
+print_name: "flip predit"
+
+
+# 目的変数として使用するシーズンのトーナメントデータの年度指定
+tournament:
+  use_start_season: 1985
+  target_season: 2024 # 例：2023年のトーナメントデータを使用
+
+features:
+  cal_mean_boxscore:
+    T1_Score: true
+    T2_Score: true
+    PointDiff: true
+
+    # FG系　どれか一つのが好ましい
+    ## type1: 各指標そのまま入れる
+    T1_FGM: true
+    T2_FGM: true
+    T1_FGA: true
+    T2_FGA: true
+    T1_FGM3: true
+    T2_FGM3: true
+    T1_FGA3: true
+    T2_FGA3: true
+    T1_FTM: true
+    T2_FTM: true
+    T1_FTA: true
+    T2_FTA: true
+    ## type2: 2pt, 3pt別で成功率入れる
+    T1_EFFG: false
+    T2_EFFG: false
+    T1_EFFG3: false
+    T2_EFFG3: false
+    ## type3: 攻守別フィールドゴール成功率入れる(fourfactor)
+    T1_EFG_SUM: true
+    T2_EFG_SUM: true
+
+
+    # TO Ratio(four factor)
+    T1_TO_RATIO: true
+    T2_TO_RATIO: true
+
+
+    # REB 
+    ## type1: 各指標そのまま入れる 
+    T1_OR: true
+    T2_OR: true
+    T1_DR: true
+    T2_DR: true
+    ##type2: REB RATE(four factor)
+    T1_REB_RATE: true
+    T2_REB_RATE: true
+
+    # FT 
+    ## type1: 各指標そのまま入れる↑にある
+    ## type2: FT RATE(four factor)
+    T1_FT_RATE: true
+    T2_FT_RATE: true
+
+    #RATING
+    T1_RATING: false
+    T2_RATING: false
+
+    # その他
+    # POSS RATE
+    T1_POSS_RATE: true #ポゼッション率 <-TORAtioと重複してる？
+    T2_POSS_RATE: true
+
+    ###
+    T1_Ast: true
+    T2_Ast: true
+    T1_TO: true
+    T2_TO: true
+    T1_Stl: true
+    T2_Stl: true
+    T1_Blk: true
+    T2_Blk: true
+    T1_PF: true
+    T2_PF: true
+    #1st feature
+    T1_DARE: false
+    T2_DARE: false
+    T1_TOQUETOQUE: false
+    T2_TOQUETOQUE: false
+    ###
+
+  rank_diff: true # これだけは最後にフィルタリング
+  start_quality_season: 2003 #これいらないだろ
+
+  dropfeatures: 
+
+  # 直近３シーズン加重平均取得するか
+  season_average:
+    enabled: false      # 加重平均を計算するかのフラグ
+    past_years: 3      # 過去何年分を使用するか
+    # 各年の重みを（最新年→古い順）で指定。例：最新年0.5, 前年0.3, それ以前0.2
+    weights: [1, 2, 3]
+  
+  fillna: 
+    quality: nan # 0.~ or nan
+
+model: 
+  repeat_cv: 10 #10
+  optuna_enabled: false
+  test_reverse: true
+
+  xgb_model:
+    param: 
+      eval_metric: "rmse" #or rmse
+      booster: "gbtree"
+      eta: 0.02
+      subsample: 0.35
+      colsample_bytree: 0.7
+      num_parallel_tree: 10
+      min_child_weight: 40
+      gamma: 10
+      max_depth: 3
+    obj: "cauchyoj"
+    num_boost_round: 3000
+    folds_splits: 5 #5
+    early_stopping_rounds: 25
+
+    optuna:      
+      max_depth: [3, 7]
+      eta: [0.001, 0.03]
+      subsample: [0.2, 0.5]
+      colsample_bytree: [0.5, 1.0]
+      num_parallel_tree: [7, 12]
+      min_child_weight: [30, 50]
+      reg_alpha: [0.0, 1.0]
+      reg_lambda: [0.0, 1.0]
+      gamma: [0, 10]
+
+      n_trials: 1000 #40
+      timeout: 28800 #
+      n_jobs: -1
+      n_warmup_steps: 3
+
+
+  spline: logistic #spline_normal or logistic or isotonic
+    
+
+hand_labeling: # [TeamId1, TeamID2(ID1<ID2), win or lose

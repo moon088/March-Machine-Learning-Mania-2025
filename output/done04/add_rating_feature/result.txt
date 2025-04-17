@@ -1,0 +1,668 @@
+-----2019-----
+2025-03-13 15:19:39.175393
+add_rating_feature
+base & add rating feature
+
+mean_iteration: 515.3
+mean_val_rmse: 11.844853631981001
+min_val_rmse: 11.806240587378458
+
+最適ブーストラウンド: [461, 488, 522, 566, 535, 548, 481, 433, 530, 589]
+test-rmse-mean: [11.875812497351657, 11.863026620188638, 11.807260371034843, 11.811082591219613, 11.839232159129953, 11.806240587378458, 11.846633129435338, 11.90172332577532, 11.874932656092293, 11.822592382203888]
+
+Normal Spline - logloss of cvsplit 0: 0.5111
+Normal Spline - logloss of cvsplit 1: 0.5088
+Normal Spline - logloss of cvsplit 2: 0.5077
+Normal Spline - logloss of cvsplit 3: 0.5056
+Normal Spline - logloss of cvsplit 4: 0.5082
+Normal Spline - logloss of cvsplit 5: 0.5067
+Normal Spline - logloss of cvsplit 6: 0.5081
+Normal Spline - logloss of cvsplit 7: 0.5106
+Normal Spline - logloss of cvsplit 8: 0.5095
+Normal Spline - logloss of cvsplit 9: 0.5076
+Average Platt Scaling logloss: 0.5084
+
+-----Feature Importance (Average Gain)-----
+seed_diff: 12625.4995
+quality_diff: 11863.2871
+T1_PointDiffmean: 4137.3514
+T2_PointDiffmean: 3995.9629
+rank_diff: 3235.1150
+T2_FGMmean: 2326.5021
+T1_FGMmean: 2276.2668
+T1_EFG_SUMmean: 2148.8792
+T2_EFG_SUMmean: 2127.0123
+T2_opponent_RATINGmean: 1885.9827
+T2_RATINGmean: 1863.7104
+T1_opponent_RATINGmean: 1790.9719
+T1_RATINGmean: 1784.8235
+T1_opponent_TOmean: 1587.4616
+T2_opponent_TOmean: 1557.2396
+T2_TeamID: 1542.4525
+T2_Astmean: 1529.8951
+T2_Scoremean: 1524.5152
+T1_Astmean: 1516.6576
+T2_opponent_EFG_SUMmean: 1506.3760
+T1_FGAmean: 1489.1847
+T2_FGAmean: 1474.6019
+win_ratio_14d_diff: 1472.7920
+T2_REB_RATEmean: 1456.9771
+T1_REB_RATEmean: 1450.4016
+T1_TeamID: 1443.0368
+T1_Stlmean: 1439.3886
+T1_opponent_EFG_SUMmean: 1435.9662
+T1_opponent_DRmean: 1432.7783
+T2_opponent_Scoremean: 1420.1148
+T2_opponent_TO_RATIOmean: 1409.0425
+T1_opponent_FT_RATEmean: 1405.2409
+T2_Stlmean: 1401.8156
+T2_Blkmean: 1381.8583
+T1_Scoremean: 1380.2386
+T2_opponent_DRmean: 1377.8884
+T1_Blkmean: 1374.0841
+T2_opponent_FTMmean: 1367.4471
+T2_opponent_FTAmean: 1354.6075
+T1_PFmean: 1353.6431
+T1_opponent_PFmean: 1353.0726
+T1_opponent_TO_RATIOmean: 1352.1077
+T2_FT_RATEmean: 1346.2763
+T1_opponent_FTMmean: 1346.0372
+T1_opponent_Scoremean: 1336.0116
+T2_PFmean: 1327.3699
+T1_opponent_FGMmean: 1317.8519
+T1_opponent_FTAmean: 1311.4235
+T1_FT_RATEmean: 1307.9868
+T2_DRmean: 1291.5014
+T2_ORmean: 1287.2008
+T2_opponent_PFmean: 1285.7586
+T2_FTAmean: 1279.9955
+T1_FTMmean: 1275.7263
+T1_FTAmean: 1268.0900
+T2_opponent_FT_RATEmean: 1267.3961
+T2_opponent_FGMmean: 1266.9216
+T1_TO_RATIOmean: 1240.7901
+T1_DRmean: 1237.9566
+T2_opponent_ORmean: 1230.1193
+T1_ORmean: 1218.0937
+T1_opponent_FGAmean: 1217.3271
+T2_opponent_FGAmean: 1214.2550
+T2_TO_RATIOmean: 1208.0611
+T2_FTMmean: 1206.3603
+T1_TOmean: 1202.5186
+T1_opponent_Astmean: 1201.7358
+T1_opponent_ORmean: 1192.8628
+T2_opponent_Astmean: 1189.2694
+T2_FGA3mean: 1186.9966
+T2_opponent_FGM3mean: 1186.8961
+T1_opponent_FGM3mean: 1183.0094
+T1_opponent_POSS_RATEmean: 1158.3543
+T2_FGM3mean: 1157.9750
+T2_opponent_Blkmean: 1156.0760
+T1_FGA3mean: 1153.4476
+T2_opponent_POSS_RATEmean: 1147.6521
+T1_opponent_Blkmean: 1147.3159
+T2_POSS_RATEmean: 1144.7933
+T2_opponent_FGA3mean: 1138.3988
+T1_opponent_Stlmean: 1132.9133
+T1_opponent_FGA3mean: 1129.0257
+T2_opponent_Stlmean: 1128.0849
+T1_opponent_REB_RATEmean: 1118.4273
+T1_FGM3mean: 1115.6154
+T2_TOmean: 1112.4084
+T2_opponent_REB_RATEmean: 1110.2245
+T1_POSS_RATEmean: 1109.9150
+Season: 1107.3406
+
+
+
+Tournament matchups only - Pred Mean:, 0.4991404793483044
+
+
+Pred mean: 0.4991404793483044
+
+
+-----eval metrics-----
+Brier Score: 0.15599
+RMSE: 0.39495
+Log Loss: 0.45906
+MAE: 0.31828
+
+---- AUC -----
+AUC-ROC: 0.8515
+AUC-PR: 0.8630
+実行時間： 872.5秒
+
+
+-----2021-----
+2025-03-12 21:55:53.362621
+add_rating_feature
+base & add rating feature
+
+mean_iteration: 503.0
+mean_val_rmse: 11.802079618158238
+min_val_rmse: 11.759255483086974
+
+最適ブーストラウンド: [510, 487, 519, 452, 491, 422, 576, 580, 528, 465]
+test-rmse-mean: [11.805175119426623, 11.844702848740116, 11.810022308709694, 11.796556068548051, 11.792575742628172, 11.813100968000972, 11.759255483086974, 11.79183253008215, 11.782195768643808, 11.825379343715825]
+
+Normal Spline - logloss of cvsplit 0: 0.5050
+Normal Spline - logloss of cvsplit 1: 0.5063
+Normal Spline - logloss of cvsplit 2: 0.5043
+Normal Spline - logloss of cvsplit 3: 0.5043
+Normal Spline - logloss of cvsplit 4: 0.5056
+Normal Spline - logloss of cvsplit 5: 0.5037
+Normal Spline - logloss of cvsplit 6: 0.5025
+Normal Spline - logloss of cvsplit 7: 0.5043
+Normal Spline - logloss of cvsplit 8: 0.5035
+Normal Spline - logloss of cvsplit 9: 0.5054
+Average Platt Scaling logloss: 0.5045
+
+-----Feature Importance (Average Gain)-----
+seed_diff: 13210.8452
+quality_diff: 12675.0951
+T1_PointDiffmean: 4381.6408
+T2_PointDiffmean: 4259.3923
+rank_diff: 3448.5121
+T2_FGMmean: 2499.7792
+T1_FGMmean: 2349.1825
+T1_EFG_SUMmean: 2174.3331
+T2_opponent_RATINGmean: 2121.9280
+T2_EFG_SUMmean: 2068.1792
+T1_opponent_RATINGmean: 1947.7682
+T2_RATINGmean: 1930.7982
+T1_RATINGmean: 1722.4579
+T2_TeamID: 1608.4674
+T1_Astmean: 1592.0150
+T1_FGAmean: 1584.3266
+T1_TeamID: 1553.0792
+T2_FGAmean: 1540.7962
+T1_opponent_TOmean: 1529.8712
+T2_Astmean: 1526.5526
+T1_Scoremean: 1523.3884
+T1_opponent_DRmean: 1514.3038
+T2_opponent_TOmean: 1511.1194
+T1_opponent_EFG_SUMmean: 1490.6583
+T2_opponent_EFG_SUMmean: 1477.7248
+T2_REB_RATEmean: 1464.8010
+T1_REB_RATEmean: 1450.3902
+T1_Blkmean: 1442.5176
+T2_Scoremean: 1425.0385
+T2_opponent_Scoremean: 1424.1039
+T2_opponent_DRmean: 1420.4189
+T1_Stlmean: 1393.8430
+T1_opponent_Scoremean: 1390.3937
+T2_Stlmean: 1377.7529
+T2_Blkmean: 1374.0651
+T1_opponent_TO_RATIOmean: 1357.6732
+T2_opponent_FGMmean: 1349.1488
+win_ratio_14d_diff: 1347.2363
+T2_opponent_FT_RATEmean: 1334.0500
+T1_opponent_FTAmean: 1319.8959
+T1_opponent_FGMmean: 1313.2667
+T1_opponent_FT_RATEmean: 1312.3112
+T2_opponent_TO_RATIOmean: 1309.6992
+T2_opponent_FTAmean: 1307.6959
+T1_FT_RATEmean: 1301.0823
+T2_FT_RATEmean: 1293.0951
+T2_opponent_FTMmean: 1289.2113
+T2_opponent_PFmean: 1284.7604
+T1_opponent_FTMmean: 1284.3448
+T1_PFmean: 1280.4211
+T2_TOmean: 1267.6967
+T1_opponent_FGM3mean: 1266.3758
+T2_DRmean: 1255.7876
+T1_opponent_FGAmean: 1253.6450
+T1_ORmean: 1250.8506
+T2_ORmean: 1250.4693
+T1_DRmean: 1245.9336
+T1_opponent_ORmean: 1244.4728
+T2_TO_RATIOmean: 1241.9983
+T2_PFmean: 1239.6571
+T1_opponent_PFmean: 1239.0466
+T1_FGM3mean: 1233.0646
+T2_opponent_ORmean: 1228.5026
+T2_opponent_FGAmean: 1221.9698
+T2_opponent_Stlmean: 1217.5230
+T2_opponent_REB_RATEmean: 1204.7595
+T2_FTMmean: 1204.6925
+T2_FTAmean: 1199.7783
+T1_opponent_Astmean: 1195.7178
+T1_TO_RATIOmean: 1195.2247
+T1_opponent_Blkmean: 1188.3361
+T1_FTMmean: 1182.7338
+T2_opponent_Blkmean: 1182.3498
+T2_POSS_RATEmean: 1179.3218
+T1_FTAmean: 1172.9597
+T2_FGM3mean: 1167.2314
+T1_FGA3mean: 1167.2002
+T1_opponent_POSS_RATEmean: 1165.9767
+T2_FGA3mean: 1160.5086
+T1_TOmean: 1158.5224
+T2_opponent_Astmean: 1158.4419
+T2_opponent_POSS_RATEmean: 1156.5709
+T2_opponent_FGM3mean: 1155.7566
+T1_opponent_FGA3mean: 1148.0695
+T1_opponent_REB_RATEmean: 1147.7042
+T1_opponent_Stlmean: 1147.0884
+T2_opponent_FGA3mean: 1139.2251
+T1_POSS_RATEmean: 1132.2940
+Season: 1123.3411
+
+
+
+Tournament matchups only - Pred Mean:, 0.4995111736432773
+
+
+Pred mean: 0.4995111736432773
+
+
+-----eval metrics-----
+Brier Score: 0.1871
+RMSE: 0.4325
+Log Loss: 0.5451
+MAE: 0.3462
+
+---- AUC -----
+AUC-ROC: 0.7925
+AUC-PR: 0.8019
+実行時間： 749.3秒
+-----2022-----
+2025-03-12 22:09:26.730891
+add_rating_feature
+base & add rating feature
+
+mean_iteration: 483.8
+mean_val_rmse: 11.857422890798764
+min_val_rmse: 11.823073996549207
+
+最適ブーストラウンド: [513, 455, 499, 462, 484, 517, 546, 433, 473, 456]
+test-rmse-mean: [11.867872777700157, 11.85270633829952, 11.855292320562217, 11.840680389042388, 11.877614582930255, 11.842115506985733, 11.823073996549207, 11.863552543092775, 11.85196919761454, 11.899351255210854]
+
+Normal Spline - logloss of cvsplit 0: 0.5060
+Normal Spline - logloss of cvsplit 1: 0.5059
+Normal Spline - logloss of cvsplit 2: 0.5059
+Normal Spline - logloss of cvsplit 3: 0.5060
+Normal Spline - logloss of cvsplit 4: 0.5069
+Normal Spline - logloss of cvsplit 5: 0.5044
+Normal Spline - logloss of cvsplit 6: 0.5050
+Normal Spline - logloss of cvsplit 7: 0.5051
+Normal Spline - logloss of cvsplit 8: 0.5057
+Normal Spline - logloss of cvsplit 9: 0.5070
+Average Platt Scaling logloss: 0.5058
+
+-----Feature Importance (Average Gain)-----
+seed_diff: 14318.0004
+quality_diff: 12735.2265
+T1_PointDiffmean: 4570.5305
+T2_PointDiffmean: 4351.6310
+rank_diff: 3601.2647
+T2_FGMmean: 2655.4158
+T1_FGMmean: 2515.0626
+T2_RATINGmean: 2175.9632
+T2_opponent_RATINGmean: 2139.9040
+T2_EFG_SUMmean: 2092.2371
+T1_EFG_SUMmean: 2085.8110
+T1_opponent_RATINGmean: 2047.4877
+T1_RATINGmean: 1899.1798
+T2_Astmean: 1780.5769
+T1_TeamID: 1723.0585
+T2_TeamID: 1689.7266
+T1_FGAmean: 1681.2726
+T2_FGAmean: 1674.7192
+T1_Scoremean: 1606.7764
+T1_Astmean: 1596.5968
+T2_opponent_TOmean: 1561.3233
+win_ratio_14d_diff: 1543.3146
+T2_REB_RATEmean: 1488.3996
+T2_Blkmean: 1484.6153
+T2_opponent_DRmean: 1480.3937
+T1_Stlmean: 1477.3425
+T2_Scoremean: 1473.6033
+T1_REB_RATEmean: 1472.9118
+T1_opponent_TOmean: 1465.1310
+T1_opponent_DRmean: 1453.7815
+T2_Stlmean: 1453.4636
+T1_Blkmean: 1447.0368
+T1_opponent_EFG_SUMmean: 1440.6986
+T2_opponent_EFG_SUMmean: 1437.6803
+T2_opponent_Scoremean: 1436.5280
+T1_opponent_Scoremean: 1403.0841
+T2_opponent_TO_RATIOmean: 1401.0149
+T2_TOmean: 1387.6836
+T2_opponent_FGMmean: 1383.8616
+T1_opponent_FT_RATEmean: 1375.9176
+T1_opponent_FTMmean: 1367.3960
+T2_TO_RATIOmean: 1365.1665
+T2_FT_RATEmean: 1335.2711
+T1_FT_RATEmean: 1334.7958
+T2_opponent_FTMmean: 1334.7570
+T1_opponent_TO_RATIOmean: 1327.9285
+T1_opponent_PFmean: 1324.0885
+T2_opponent_FT_RATEmean: 1316.7792
+T2_ORmean: 1307.9917
+T1_opponent_FGMmean: 1305.5801
+T1_TO_RATIOmean: 1302.5936
+T1_TOmean: 1295.8208
+T2_PFmean: 1294.3352
+T2_opponent_FGM3mean: 1283.2376
+T1_opponent_FGAmean: 1281.7289
+T1_PFmean: 1281.2362
+T1_DRmean: 1276.3455
+T2_opponent_ORmean: 1274.2410
+T2_opponent_FTAmean: 1270.3344
+T2_opponent_PFmean: 1265.7823
+T1_ORmean: 1262.3572
+T1_opponent_FGM3mean: 1259.0135
+T1_opponent_Stlmean: 1255.4992
+T2_opponent_FGAmean: 1250.9134
+T2_DRmean: 1249.3574
+T2_opponent_Astmean: 1248.1080
+T1_opponent_FTAmean: 1245.8770
+T2_opponent_POSS_RATEmean: 1235.4912
+T1_FTAmean: 1227.7407
+T1_FGM3mean: 1224.5388
+T2_FTAmean: 1223.6875
+T2_opponent_Stlmean: 1223.5427
+T1_opponent_ORmean: 1218.6779
+T2_opponent_Blkmean: 1213.1909
+T1_FTMmean: 1209.3648
+T1_opponent_Astmean: 1205.6741
+T1_opponent_FGA3mean: 1196.9423
+T2_FTMmean: 1186.4708
+T1_opponent_Blkmean: 1186.3010
+T1_POSS_RATEmean: 1180.6594
+T2_POSS_RATEmean: 1176.8674
+T1_opponent_REB_RATEmean: 1168.9004
+T2_opponent_FGA3mean: 1166.9633
+T2_opponent_REB_RATEmean: 1163.8021
+T1_FGA3mean: 1159.4662
+T1_opponent_POSS_RATEmean: 1151.9381
+T2_FGM3mean: 1143.4038
+T2_FGA3mean: 1137.3995
+Season: 1135.3950
+
+
+
+Tournament matchups only - Pred Mean:, 0.4991259087558679
+
+
+Pred mean: 0.4991259087558679
+
+
+-----eval metrics-----
+Brier Score: 0.1878
+RMSE: 0.4333
+Log Loss: 0.5567
+MAE: 0.362
+
+---- AUC -----
+AUC-ROC: 0.7885
+AUC-PR: 0.7873
+実行時間： 736.0秒
+-----2023-----
+2025-03-12 22:22:46.789046
+add_rating_feature
+base & add rating feature
+
+mean_iteration: 513.3
+mean_val_rmse: 11.927019441998816
+min_val_rmse: 11.909674511313009
+
+最適ブーストラウンド: [453, 513, 604, 587, 485, 458, 479, 536, 540, 478]
+test-rmse-mean: [11.917828444738253, 11.925810079188352, 11.918212219482331, 11.911571615724872, 11.909674511313009, 11.943812692953419, 11.945411596849986, 11.924269622389943, 11.927846941809815, 11.945756695538163]
+
+Normal Spline - logloss of cvsplit 0: 0.5084
+Normal Spline - logloss of cvsplit 1: 0.5089
+Normal Spline - logloss of cvsplit 2: 0.5074
+Normal Spline - logloss of cvsplit 3: 0.5089
+Normal Spline - logloss of cvsplit 4: 0.5097
+Normal Spline - logloss of cvsplit 5: 0.5109
+Normal Spline - logloss of cvsplit 6: 0.5087
+Normal Spline - logloss of cvsplit 7: 0.5089
+Normal Spline - logloss of cvsplit 8: 0.5097
+Normal Spline - logloss of cvsplit 9: 0.5100
+Average Platt Scaling logloss: 0.5092
+
+-----Feature Importance (Average Gain)-----
+seed_diff: 14662.3176
+quality_diff: 13506.9426
+T1_PointDiffmean: 4735.3653
+T2_PointDiffmean: 4398.3079
+rank_diff: 3841.4105
+T2_FGMmean: 2478.7492
+T2_opponent_RATINGmean: 2323.5110
+T1_opponent_RATINGmean: 2269.8102
+T1_FGMmean: 2236.7572
+T2_EFG_SUMmean: 2195.1355
+T1_EFG_SUMmean: 2131.7810
+T2_RATINGmean: 2068.0460
+T1_RATINGmean: 2034.0887
+T2_Astmean: 1726.5441
+T2_TeamID: 1724.4741
+T1_Astmean: 1694.5173
+T1_TeamID: 1668.9149
+T1_opponent_DRmean: 1633.5623
+T1_FGAmean: 1604.8025
+T1_opponent_EFG_SUMmean: 1594.1987
+T2_REB_RATEmean: 1580.8587
+T1_Scoremean: 1558.5806
+T1_opponent_TOmean: 1541.7145
+T2_opponent_EFG_SUMmean: 1535.5153
+T1_REB_RATEmean: 1521.0701
+T2_opponent_DRmean: 1512.6209
+T2_opponent_TOmean: 1509.1419
+win_ratio_14d_diff: 1494.8466
+T2_Scoremean: 1486.8143
+T2_opponent_TO_RATIOmean: 1477.9612
+T2_FGAmean: 1468.6957
+T2_opponent_Scoremean: 1462.7034
+T2_Blkmean: 1454.9322
+T2_opponent_FT_RATEmean: 1437.1640
+T1_opponent_Scoremean: 1429.7061
+T1_opponent_TO_RATIOmean: 1418.7626
+T1_Blkmean: 1409.8860
+T1_TO_RATIOmean: 1408.2900
+T2_Stlmean: 1401.8856
+T1_opponent_FT_RATEmean: 1399.1293
+T2_opponent_FTAmean: 1386.6875
+T1_opponent_FTMmean: 1385.9326
+T2_TO_RATIOmean: 1382.9019
+T1_opponent_FGMmean: 1370.2477
+T2_FT_RATEmean: 1368.2862
+T1_opponent_PFmean: 1366.4384
+T1_Stlmean: 1356.4671
+T1_opponent_FTAmean: 1354.4081
+T1_ORmean: 1347.4782
+T2_opponent_PFmean: 1347.2472
+T2_opponent_FTMmean: 1342.1738
+T1_PFmean: 1341.5877
+T2_opponent_FGMmean: 1333.4548
+T1_FT_RATEmean: 1323.4332
+T2_ORmean: 1320.5596
+T2_opponent_FGAmean: 1306.2730
+T2_TOmean: 1305.5292
+T2_FTMmean: 1299.3147
+T1_opponent_FGM3mean: 1295.1629
+T2_opponent_ORmean: 1287.6834
+T2_opponent_FGM3mean: 1287.2455
+T2_PFmean: 1285.9331
+T1_opponent_FGAmean: 1283.6666
+T1_opponent_Stlmean: 1265.6779
+Season: 1264.7556
+T2_DRmean: 1264.3766
+T1_opponent_Astmean: 1262.5385
+T1_TOmean: 1255.1093
+T2_FTAmean: 1250.7872
+T1_FTMmean: 1248.9287
+T1_DRmean: 1246.6946
+T2_opponent_Stlmean: 1245.6484
+T2_opponent_REB_RATEmean: 1245.2848
+T2_opponent_Blkmean: 1243.4672
+T2_opponent_Astmean: 1242.2924
+T1_opponent_ORmean: 1239.5932
+T1_opponent_FGA3mean: 1236.5034
+T2_opponent_FGA3mean: 1234.5535
+T1_opponent_REB_RATEmean: 1232.2770
+T1_opponent_Blkmean: 1223.3614
+T2_FGM3mean: 1222.9729
+T1_POSS_RATEmean: 1202.6903
+T1_opponent_POSS_RATEmean: 1202.6790
+T1_FTAmean: 1197.9899
+T2_POSS_RATEmean: 1196.4954
+T1_FGM3mean: 1195.2035
+T2_FGA3mean: 1189.2781
+T1_FGA3mean: 1183.2624
+T2_opponent_POSS_RATEmean: 1160.3370
+
+
+
+Tournament matchups only - Pred Mean:, 0.5002889365739788
+
+
+Pred mean: 0.5002889365739788
+
+
+-----eval metrics-----
+Brier Score: 0.1811
+RMSE: 0.4255
+Log Loss: 0.5452
+MAE: 0.3606
+
+---- AUC -----
+AUC-ROC: 0.8101
+AUC-PR: 0.8040
+実行時間： 782.2秒
+-----2024-----
+2025-03-12 22:36:53.083068
+add_rating_feature
+base & add rating feature
+
+mean_iteration: 557.3
+mean_val_rmse: 11.92384165573475
+min_val_rmse: 11.895802388793697
+
+最適ブーストラウンド: [644, 625, 596, 587, 555, 622, 483, 519, 457, 485]
+test-rmse-mean: [11.91385466518575, 11.93969678987337, 11.917208773903877, 11.925952251737966, 11.923330114715093, 11.940346932473528, 11.906886459518152, 11.895802388793697, 11.974357122791206, 11.900981058354857]
+
+Normal Spline - logloss of cvsplit 0: 0.5106
+Normal Spline - logloss of cvsplit 1: 0.5120
+Normal Spline - logloss of cvsplit 2: 0.5108
+Normal Spline - logloss of cvsplit 3: 0.5112
+Normal Spline - logloss of cvsplit 4: 0.5119
+Normal Spline - logloss of cvsplit 5: 0.5119
+Normal Spline - logloss of cvsplit 6: 0.5108
+Normal Spline - logloss of cvsplit 7: 0.5101
+Normal Spline - logloss of cvsplit 8: 0.5127
+Normal Spline - logloss of cvsplit 9: 0.5100
+Average Platt Scaling logloss: 0.5112
+
+-----Feature Importance (Average Gain)-----
+seed_diff: 15313.4229
+quality_diff: 14024.3616
+T1_PointDiffmean: 4624.1257
+T2_PointDiffmean: 4308.2810
+rank_diff: 3930.6176
+T2_FGMmean: 2417.2662
+T2_EFG_SUMmean: 2297.0659
+T1_FGMmean: 2282.2842
+T2_opponent_RATINGmean: 2228.8597
+T1_RATINGmean: 2193.7301
+T1_opponent_RATINGmean: 2172.2438
+T1_EFG_SUMmean: 2148.0389
+T2_RATINGmean: 2078.9831
+T1_TeamID: 2053.6615
+T1_Astmean: 1965.1505
+T2_TeamID: 1858.8472
+T2_Astmean: 1823.6457
+T2_FGAmean: 1609.6171
+T2_REB_RATEmean: 1595.3402
+T1_opponent_DRmean: 1588.1257
+T1_FGAmean: 1579.6679
+T1_REB_RATEmean: 1568.7352
+T2_Scoremean: 1567.9626
+T1_Scoremean: 1557.0396
+T2_opponent_DRmean: 1556.9733
+T2_opponent_EFG_SUMmean: 1543.2125
+T1_opponent_EFG_SUMmean: 1542.3023
+T1_opponent_TOmean: 1535.7746
+T2_opponent_TOmean: 1504.6336
+win_ratio_14d_diff: 1491.0329
+T1_Stlmean: 1484.6484
+T2_Stlmean: 1469.2774
+T1_Blkmean: 1463.9958
+T2_opponent_Scoremean: 1459.4356
+T2_Blkmean: 1457.8873
+T1_opponent_TO_RATIOmean: 1456.8120
+T2_opponent_FT_RATEmean: 1440.8196
+T1_opponent_FT_RATEmean: 1406.2890
+T2_opponent_TO_RATIOmean: 1398.9773
+T1_opponent_Scoremean: 1392.8610
+T2_FT_RATEmean: 1380.2310
+T2_opponent_FTMmean: 1370.1762
+T2_opponent_PFmean: 1367.8892
+T2_ORmean: 1360.0635
+T1_opponent_PFmean: 1357.8862
+T2_TOmean: 1350.5893
+T1_FT_RATEmean: 1347.8272
+T2_opponent_FTAmean: 1346.3079
+T1_ORmean: 1342.5464
+T1_PFmean: 1336.8531
+T2_opponent_FGMmean: 1334.6008
+T1_opponent_Stlmean: 1329.8523
+T2_PFmean: 1323.7825
+T2_opponent_Stlmean: 1319.8733
+T2_opponent_FGAmean: 1313.5942
+T1_opponent_FTMmean: 1311.9344
+T1_DRmean: 1302.9914
+T1_TO_RATIOmean: 1300.7987
+T1_opponent_FTAmean: 1299.7134
+T2_TO_RATIOmean: 1294.4591
+T1_opponent_FGMmean: 1279.3151
+T1_opponent_REB_RATEmean: 1270.7702
+T1_FTAmean: 1264.3808
+T2_FTAmean: 1264.3061
+T1_opponent_FGAmean: 1263.2062
+T1_TOmean: 1261.2259
+Season: 1257.8052
+T2_DRmean: 1253.6679
+T1_opponent_ORmean: 1252.6702
+T2_opponent_POSS_RATEmean: 1251.0424
+T2_opponent_Blkmean: 1250.9131
+T2_opponent_ORmean: 1245.3285
+T1_opponent_FGM3mean: 1242.7181
+T1_POSS_RATEmean: 1235.4134
+T1_opponent_Blkmean: 1229.7898
+T1_opponent_POSS_RATEmean: 1220.4371
+T1_opponent_Astmean: 1217.8776
+T2_opponent_REB_RATEmean: 1217.2061
+T2_POSS_RATEmean: 1217.0511
+T1_FTMmean: 1214.0126
+T2_opponent_Astmean: 1209.7356
+T1_FGA3mean: 1194.8859
+T2_FTMmean: 1191.5096
+T2_opponent_FGM3mean: 1191.3605
+T2_FGM3mean: 1185.2123
+T2_opponent_FGA3mean: 1180.3598
+T1_FGM3mean: 1179.5072
+T2_FGA3mean: 1174.8084
+T1_opponent_FGA3mean: 1164.6140
+
+
+
+Tournament matchups only - Pred Mean:, 0.4981974844622865
+
+
+Pred mean: 0.4981974844622865
+
+
+-----eval metrics-----
+Brier Score: 0.1574
+RMSE: 0.3968
+Log Loss: 0.4693
+MAE: 0.3347
+
+---- AUC -----
+AUC-ROC: 0.8534
+AUC-PR: 0.8609
+実行時間： 863.5秒
+

@@ -1,0 +1,30 @@
+2025-03-09 15:22:25.904297
+[2023]_Calibrated_windowslide
+これはbase(exp003)
+
+予測年度: 2023
+mean iterations: [564, 580, 533, 491, 543, 499, 501, 536, 529, 460]
+最適ブーストラウンド: [564, 580, 533, 491, 543, 499, 501, 536, 529, 460]
+val_mae: [11.867569600124657, 11.888570464453627, 11.9100135989703, 11.86427809456201, 11.875035380076724, 11.893935035407528, 11.92230755085563, 11.882969654613195, 11.886274176021393, 11.921080297700108]
+-----
+Normal Spline - logloss of cvsplit 0: 0.5059
+Normal Spline - logloss of cvsplit 1: 0.5071
+Normal Spline - logloss of cvsplit 2: 0.5059
+Normal Spline - logloss of cvsplit 3: 0.5055
+Normal Spline - logloss of cvsplit 4: 0.5074
+Normal Spline - logloss of cvsplit 5: 0.5085
+Normal Spline - logloss of cvsplit 6: 0.5072
+Normal Spline - logloss of cvsplit 7: 0.5057
+Normal Spline - logloss of cvsplit 8: 0.5078
+Normal Spline - logloss of cvsplit 9: 0.5071
+Average Platt Scaling logloss: 0.5068
+evalmetrics
+BrierScore: 0.1789086135972194
+RMSE: 0.4229759019107583
+MAE: 0.35800064281439653
+
+-----final evaluate metrics-----
+mean_brier: 0.1789086135972194
+mean_rmse: 0.4229759019107583
+mean_mae: 0.35800064281439653
+実行時間： 709.3秒

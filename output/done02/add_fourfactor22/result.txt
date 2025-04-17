@@ -1,0 +1,96 @@
+-----2022-----
+2025-03-11 09:44:34.294687
+2022_best_param_fourfactor
+best(RMSE,logi) & add four factor
+
+mean_iteration: 470.8
+mean_val_rmse: 11.816043667230907
+min_val_rmse: 11.760387464314482
+
+最適ブーストラウンド: [496, 457, 435, 462, 520, 566, 504, 410, 472, 386]
+test-rmse-mean: [11.82112504009245, 11.804105481649389, 11.827462918312085, 11.800507019214148, 11.84254352665818, 11.760387464314482, 11.807962882326617, 11.823162490749414, 11.828501719867036, 11.84467812912528]
+
+Normal Spline - logloss of cvsplit 0: 0.5026
+Normal Spline - logloss of cvsplit 1: 0.5023
+Normal Spline - logloss of cvsplit 2: 0.5032
+Normal Spline - logloss of cvsplit 3: 0.5039
+Normal Spline - logloss of cvsplit 4: 0.5053
+Normal Spline - logloss of cvsplit 5: 0.5020
+Normal Spline - logloss of cvsplit 6: 0.5031
+Normal Spline - logloss of cvsplit 7: 0.5032
+Normal Spline - logloss of cvsplit 8: 0.5032
+Normal Spline - logloss of cvsplit 9: 0.5037
+Average Platt Scaling logloss: 0.5032
+
+Tournament matchups only - Pred Mean:, 0.5390210268133218
+
+
+Pred mean: 0.5227325902494365
+
+
+-----eval metrics-----
+Brier Score: 0.2254
+RMSE: 0.4747
+Log Loss: 0.6565
+MAE: 0.4102
+
+---- AUC -----
+AUC-ROC: 0.7080
+AUC-PR: 0.6629
+
+-----eval metrics-----
+Brier Score: 0.22536910583510794
+RMSE: 0.47473056130304897
+Log Loss: 0.6565402077757901
+MAE: 0.41018744122201267
+
+実行時間： 821.8秒
+0.65531
+-----2023-----
+2025-03-11 10:02:01.482487
+2023_best_param_fourfactor
+best(RMSE,logi) & add four factor
+
+mean_iteration: 485.6
+mean_val_rmse: 11.891352846876158
+min_val_rmse: 11.857878915967357
+
+最適ブーストラウンド: [452, 513, 502, 518, 499, 522, 429, 454, 511, 456]
+test-rmse-mean: [11.879781596351974, 11.887096370813662, 11.897099083165902, 11.857878915967357, 11.881770574684026, 11.895248716364692, 11.928851472262043, 11.883335763426347, 11.894608724096107, 11.907857251629483]
+
+Normal Spline - logloss of cvsplit 0: 0.5056
+Normal Spline - logloss of cvsplit 1: 0.5064
+Normal Spline - logloss of cvsplit 2: 0.5062
+Normal Spline - logloss of cvsplit 3: 0.5056
+Normal Spline - logloss of cvsplit 4: 0.5078
+Normal Spline - logloss of cvsplit 5: 0.5081
+Normal Spline - logloss of cvsplit 6: 0.5068
+Normal Spline - logloss of cvsplit 7: 0.5057
+Normal Spline - logloss of cvsplit 8: 0.5076
+Normal Spline - logloss of cvsplit 9: 0.5074
+Average Platt Scaling logloss: 0.5067
+
+Tournament matchups only - Pred Mean:, 0.4950277254012853
+
+
+Pred mean: 0.15594487949675662
+
+
+-----eval metrics-----
+Brier Score: 0.18
+RMSE: 0.4243
+Log Loss: 0.5396
+MAE: 0.3606
+
+---- AUC -----
+AUC-ROC: 0.8152
+AUC-PR: 0.8233
+
+-----eval metrics-----
+Brier Score: 0.1800270091952519
+RMSE: 0.4242958981598242
+Log Loss: 0.5396086338491236
+MAE: 0.36061230760730506
+
+実行時間： 830.1秒
+0.17732

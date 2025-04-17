@@ -1,0 +1,26 @@
+2025-03-06 10:55:25.297158
+2023_3rdsolution_optuna_RMSE
+これはbase(exp003)にOptuna最適化導入したやつ,にたいしてRMSE変更
+
+param set after optuna is below
+{'eval_metric': 'rmse', 'booster': 'gbtree', 'max_depth': 3, 'eta': 0.007138477238051142, 'subsample': 0.25006269810866283, 'colsample_bytree': 0.5786469723799523, 'num_parallel_tree': 8, 'min_child_weight': 30, 'reg_alpha': 0.9151564050970671, 'reg_lambda': 0.7703000510895401, 'gamma': 0.5988717251589822}
+
+mean_iteration: 1469.8
+mean_val_mae: 11.8656072451754
+min_val_mae: 11.840152397943275
+
+最適ブーストラウンド: [1442, 1499, 1498, 1498, 1412]
+test-rmse-mean: [11.855052658116964, 11.873624373128393, 11.895194267465383, 11.840152397943275, 11.864012529222986]
+
+Normal Spline - logloss of cvsplit 0: 0.5116
+Normal Spline - logloss of cvsplit 1: 0.5123
+Normal Spline - logloss of cvsplit 2: 0.5126
+Normal Spline - logloss of cvsplit 3: 0.5123
+Normal Spline - logloss of cvsplit 4: 0.5127
+Average Normal Spline logloss: 0.5123
+
+Pred mean: 0.19272889510682747
+
+Brier Score: 0.18127621152136106
+
+実行時間： 30928.5秒

@@ -1,0 +1,39 @@
+2025-03-05 01:11:16.198362
+2023_3rdsolution_optuna2
+これはbase(exp003)にOptuna最適化導入したやつ
+
+589回探索
+    max_depth: 3
+    eta: 0.025097795640333553
+    subsample: 0.2304651676268488
+    colsample_bytree: 0.5285562175113997
+    num_parallel_tree: 10
+    min_child_weight: 32
+    reg_alpha: 0.36886708243996424
+    reg_lambda: 0.6743797704083954
+    gamma: 3.92110024112128
+param updated by optuna
+param: {'eval_metric': 'mae', 'booster': 'gbtree', 'max_depth': 3, 'eta': 0.025097795640333553, 'subsample': 0.2304651676268488, 'colsample_bytree': 0.5285562175113997, 'num_parallel_tree': 10, 'min_child_weight': 32, 'reg_alpha': 0.36886708243996424, 'reg_lambda': 0.6743797704083954, 'gamma': 3.92110024112128}
+repeat_cv: 2
+num_boost_round: 1500
+folds_splits: 5
+early_stopping_rounds: 25
+
+
+mean_iteration: 428.0
+mean_val_mae: 9.394519777768206
+min_val_mae: 9.390524821527034
+
+最適ブーストラウンド: [474, 382]
+検証MAE: [9.398514734009378, 9.390524821527034]
+
+Normal Spline - logloss of cvsplit 0: 0.5111
+Normal Spline - logloss of cvsplit 1: 0.5115
+Average Normal Spline logloss: 0.5113
+
+Pred mean: 0.21853221217605973
+
+Brier Score: 0.1826117017702421
+
+実行時間： 25543.9秒
+0.18013

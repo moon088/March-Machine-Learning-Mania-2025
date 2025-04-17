@@ -1,0 +1,69 @@
+2025-03-10 01:05:30.913700
+[2022, 2023, 2024]_Calibrated_windowslide
+これはbase(exp003)
+
+予測年度: 2022
+mean iterations: [497, 514, 517, 530, 504, 566, 469, 454, 509, 465]
+最適ブーストラウンド: [497, 514, 517, 530, 504, 566, 469, 454, 509, 465]
+val_mae: [11.81177351438102, 11.79149208540329, 11.821790311247213, 11.813912898543292, 11.843759113797711, 11.771211222937822, 11.81886285678797, 11.832017270243798, 11.80826331521584, 11.846670877995217]
+-----
+Normal Spline - logloss of cvsplit 0: 0.5033
+Normal Spline - logloss of cvsplit 1: 0.5022
+Normal Spline - logloss of cvsplit 2: 0.5037
+Normal Spline - logloss of cvsplit 3: 0.5034
+Normal Spline - logloss of cvsplit 4: 0.5060
+Normal Spline - logloss of cvsplit 5: 0.5016
+Normal Spline - logloss of cvsplit 6: 0.5030
+Normal Spline - logloss of cvsplit 7: 0.5035
+Normal Spline - logloss of cvsplit 8: 0.5024
+Normal Spline - logloss of cvsplit 9: 0.5034
+Average Platt Scaling logloss: 0.5032
+evalmetrics
+BrierScore: 0.19010037002593175
+RMSE: 0.43600501146882675
+MAE: 0.36215349842400846
+予測年度: 2023
+mean iterations: [564, 580, 533, 491, 543, 499, 501, 536, 529, 460]
+最適ブーストラウンド: [564, 580, 533, 491, 543, 499, 501, 536, 529, 460]
+val_mae: [11.867569600124657, 11.888570464453627, 11.9100135989703, 11.86427809456201, 11.875035380076724, 11.893935035407528, 11.92230755085563, 11.882969654613195, 11.886274176021393, 11.921080297700108]
+-----
+Normal Spline - logloss of cvsplit 0: 0.5059
+Normal Spline - logloss of cvsplit 1: 0.5071
+Normal Spline - logloss of cvsplit 2: 0.5059
+Normal Spline - logloss of cvsplit 3: 0.5055
+Normal Spline - logloss of cvsplit 4: 0.5074
+Normal Spline - logloss of cvsplit 5: 0.5085
+Normal Spline - logloss of cvsplit 6: 0.5072
+Normal Spline - logloss of cvsplit 7: 0.5057
+Normal Spline - logloss of cvsplit 8: 0.5078
+Normal Spline - logloss of cvsplit 9: 0.5071
+Average Platt Scaling logloss: 0.5068
+evalmetrics
+BrierScore: 0.1789086135972194
+RMSE: 0.4229759019107583
+MAE: 0.35800064281439653
+予測年度: 2024
+mean iterations: [602, 463, 489, 526, 521, 534, 477, 565, 459, 469]
+最適ブーストラウンド: [602, 463, 489, 526, 521, 534, 477, 565, 459, 469]
+val_mae: [11.88234571602239, 11.904621304642628, 11.880306261541614, 11.901708976328994, 11.889948373423083, 11.90331103314757, 11.897329763608964, 11.869033484371872, 11.964045086004086, 11.885491339213536]
+-----
+Normal Spline - logloss of cvsplit 0: 0.5084
+Normal Spline - logloss of cvsplit 1: 0.5083
+Normal Spline - logloss of cvsplit 2: 0.5077
+Normal Spline - logloss of cvsplit 3: 0.5081
+Normal Spline - logloss of cvsplit 4: 0.5091
+Normal Spline - logloss of cvsplit 5: 0.5090
+Normal Spline - logloss of cvsplit 6: 0.5088
+Normal Spline - logloss of cvsplit 7: 0.5081
+Normal Spline - logloss of cvsplit 8: 0.5110
+Normal Spline - logloss of cvsplit 9: 0.5073
+Average Platt Scaling logloss: 0.5086
+evalmetrics
+BrierScore: 0.1596330045800023
+RMSE: 0.39954099236499163
+MAE: 0.33063947641131297
+
+-----final evaluate metrics-----
+mean_brier: 0.17621399606771782
+mean_rmse: 0.4195073019148589
+mean_mae: 0.35026453921657263

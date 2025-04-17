@@ -1,0 +1,61 @@
+Ensemble Log
+Timestamp: 2025-03-19 05:39:27.326984
+Ensemble Models and Weights:
+  feature_engineering_10: 1
+  feature_engineering_11: 1
+
+----- Emsemble for 2019 -----
+-----eval metrics-----
+Brier Score: 0.15423
+RMSE: 0.39273
+Log Loss: 0.45433
+MAE: 0.3159
+
+---- AUC -----
+AUC-ROC: 0.8562
+AUC-PR: 0.8678
+
+----- Emsemble for 2021 -----
+-----eval metrics-----
+Brier Score: 0.18407
+RMSE: 0.42904
+Log Loss: 0.53854
+MAE: 0.34218
+
+---- AUC -----
+AUC-ROC: 0.8015
+AUC-PR: 0.8097
+
+----- Emsemble for 2022 -----
+-----eval metrics-----
+Brier Score: 0.18813
+RMSE: 0.43374
+Log Loss: 0.55662
+MAE: 0.36275
+
+---- AUC -----
+AUC-ROC: 0.7878
+AUC-PR: 0.7868
+
+----- Emsemble for 2023 -----
+-----eval metrics-----
+Brier Score: 0.18033
+RMSE: 0.42465
+Log Loss: 0.5432
+MAE: 0.35917
+
+---- AUC -----
+AUC-ROC: 0.8115
+AUC-PR: 0.8046
+
+----- Emsemble for 2024 -----
+-----eval metrics-----
+Brier Score: 0.15728
+RMSE: 0.39659
+Log Loss: 0.47008
+MAE: 0.33505
+
+---- AUC -----
+AUC-ROC: 0.8540
+AUC-PR: 0.8601
+

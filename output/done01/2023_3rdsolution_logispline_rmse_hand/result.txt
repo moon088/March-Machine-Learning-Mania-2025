@@ -1,0 +1,29 @@
+2025-03-08 06:40:53.248887
+2023_3rdsolution_logispline_rmse_hand
+これはbase(exp003)にbest(logi, rmse)にさらにハンドラベリング適用したやつ
+
+mean_iteration: 506.9
+mean_val_rmse: 11.899911155484686
+min_val_rmse: 11.872673153041415
+
+最適ブーストラウンド: [574, 455, 470, 463, 563, 468, 487, 514, 581, 494]
+test-rmse-mean: [11.892015135354788, 11.892289125556736, 11.911636080389052, 11.88862261628817, 11.872673153041415, 11.919902465550743, 11.90919034031627, 11.90971402184706, 11.87457157832974, 11.928497038172889]
+
+Normal Spline - logloss of cvsplit 0: 0.5054
+Normal Spline - logloss of cvsplit 1: 0.5060
+Normal Spline - logloss of cvsplit 2: 0.5064
+Normal Spline - logloss of cvsplit 3: 0.5055
+Normal Spline - logloss of cvsplit 4: 0.5072
+Normal Spline - logloss of cvsplit 5: 0.5069
+Normal Spline - logloss of cvsplit 6: 0.5068
+Normal Spline - logloss of cvsplit 7: 0.5071
+Normal Spline - logloss of cvsplit 8: 0.5069
+Normal Spline - logloss of cvsplit 9: 0.5076
+Average Platt Scaling logloss: 0.5066
+
+Pred mean: 0.15405671908502205
+
+Brier Score: 0.17651558984559026
+
+実行時間： 613.9秒
+0.17371

@@ -1,0 +1,33 @@
+2025-03-10 04:01:01.479659
+2023_3rdsolution_addfeature
+best(RMSE,logi)に対して追加特徴量を単純に追加したもの(1st feature入れず他全部入れた)
+
+mean_iteration: 485.6
+mean_val_rmse: 11.891352846876158
+min_val_rmse: 11.857878915967357
+
+最適ブーストラウンド: [452, 513, 502, 518, 499, 522, 429, 454, 511, 456]
+test-rmse-mean: [11.879781596351974, 11.887096370813662, 11.897099083165902, 11.857878915967357, 11.881770574684026, 11.895248716364692, 11.928851472262043, 11.883335763426347, 11.894608724096107, 11.907857251629483]
+
+Normal Spline - logloss of cvsplit 0: 0.5056
+Normal Spline - logloss of cvsplit 1: 0.5064
+Normal Spline - logloss of cvsplit 2: 0.5062
+Normal Spline - logloss of cvsplit 3: 0.5056
+Normal Spline - logloss of cvsplit 4: 0.5078
+Normal Spline - logloss of cvsplit 5: 0.5081
+Normal Spline - logloss of cvsplit 6: 0.5068
+Normal Spline - logloss of cvsplit 7: 0.5057
+Normal Spline - logloss of cvsplit 8: 0.5076
+Normal Spline - logloss of cvsplit 9: 0.5074
+Average Platt Scaling logloss: 0.5067
+
+
+Tournament matchups only - Pred Mean:, 0.49771209112017484
+
+
+Pred mean: 0.15594763199714182
+
+Brier Score: 0.17906142940734335
+
+実行時間： 29.7秒
+0.17629

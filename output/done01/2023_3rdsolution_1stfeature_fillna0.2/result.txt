@@ -1,0 +1,23 @@
+name: "2025_03_04_3rdsolution_1stfeature"
+print_name: "これは2023 3位ソリューションに1位の特徴量追加した奴"
+
+mean_iteration: 522.1
+mean_val_mae: 9.397053332854579
+min_val_mae: 9.36824697149219
+最適ブーストラウンド: [520, 524, 516, 542, 557, 496, 405, 596, 474, 591]
+検証MAE: [9.398516371287776, 9.398008578083049, 9.38926916086272, 9.368825221704032, 9.36824697149219, 9.395076972710184, 9.446465403613994, 9.387479017033716, 9.40472609899842, 9.413919532759696]
+Normal Spline - logloss of cvsplit 0: 0.5145
+Normal Spline - logloss of cvsplit 1: 0.5144
+Normal Spline - logloss of cvsplit 2: 0.5143
+Normal Spline - logloss of cvsplit 3: 0.5137
+Normal Spline - logloss of cvsplit 4: 0.5149
+Normal Spline - logloss of cvsplit 5: 0.5159
+Normal Spline - logloss of cvsplit 6: 0.5157
+Normal Spline - logloss of cvsplit 7: 0.5145
+Normal Spline - logloss of cvsplit 8: 0.5155
+Normal Spline - logloss of cvsplit 9: 0.5159
+Average Normal Spline logloss: 0.5149
+Pred mean: 0.15603343745357626
+実行時間： 915.3秒
+0.18021
+

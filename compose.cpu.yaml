@@ -1,0 +1,23 @@
+services:
+  kaggle-cpu:
+    container_name: 'kaggle-cpu'
+    build:
+      context: .
+      dockerfile: Dockerfile.cpu
+    volumes:
+      - ./:/workspace
+      - ./notebook:/workspace/notebook
+      - ./src:/workspace/src
+      - ./conf:/workspace/conf
+      - ./input:/workspace/input
+      - ./output:/workspace/output
+      - ./.jupyter:/root/.jupyter  
+    environment:
+      - JUPYTERLAB_SETTINGS_DIR=/kaggle/working/.jupyter-settings # jupyterの設定(保存用)
+    working_dir: /workspace
+    ports:
+      - 8889:8889
+    command: jupyter lab --allow-root --ip=0.0.0.0 --port=8889 --no-browser --NotebookApp.token='' --config="./jupyter_lab_config.py"
+    shm_size: '2gb'  
+    tty: true
+

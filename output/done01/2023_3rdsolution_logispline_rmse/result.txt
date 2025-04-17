@@ -1,0 +1,33 @@
+2025-03-09 15:08:47.895237
+2023_3rdsolution_logispline_rmse
+これはbase(exp003)にbest(logi, rmse)にさらにハンドラベリング適用したやつ
+
+mean_iteration: 523.6
+mean_val_rmse: 11.891203385278516
+min_val_rmse: 11.86427809456201
+
+最適ブーストラウンド: [564, 580, 533, 491, 543, 499, 501, 536, 529, 460]
+test-rmse-mean: [11.867569600124657, 11.888570464453627, 11.9100135989703, 11.86427809456201, 11.875035380076724, 11.893935035407528, 11.92230755085563, 11.882969654613195, 11.886274176021393, 11.921080297700108]
+
+Normal Spline - logloss of cvsplit 0: 0.5056
+Normal Spline - logloss of cvsplit 1: 0.5066
+Normal Spline - logloss of cvsplit 2: 0.5057
+Normal Spline - logloss of cvsplit 3: 0.5052
+Normal Spline - logloss of cvsplit 4: 0.5070
+Normal Spline - logloss of cvsplit 5: 0.5076
+Normal Spline - logloss of cvsplit 6: 0.5068
+Normal Spline - logloss of cvsplit 7: 0.5061
+Normal Spline - logloss of cvsplit 8: 0.5074
+Normal Spline - logloss of cvsplit 9: 0.5073
+Average Platt Scaling logloss: 0.5065
+Tournament matchups only - Pred Mean:, 0.49332992747808974
+
+Tournament matchups only - Pred Mean:, 0.49332992747808974
+
+
+Pred mean: 0.153562269703509
+
+Brier Score: 0.17804003611127367
+
+実行時間： 687.6秒
+0.17536

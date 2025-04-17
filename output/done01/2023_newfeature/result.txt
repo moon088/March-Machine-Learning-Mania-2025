@@ -1,0 +1,33 @@
+2025-03-10 03:41:50.092281
+2023_newfeature
+これだとクソモデル悪いのマジ？
+
+mean_iteration: 455.0
+mean_val_mae: 9.467087569742548
+min_val_mae: 9.448681289916088
+
+最適ブーストラウンド: [450, 479, 514, 458, 443, 442, 442, 418, 425, 479]
+test-mae-mean: [9.471939114897719, 9.455414555292851, 9.47191396723149, 9.448681289916088, 9.478431704944464, 9.465626750839771, 9.491839129277182, 9.460448354873176, 9.475421713668158, 9.45115911648457]
+
+Normal Spline - logloss of cvsplit 0: 0.5119
+Normal Spline - logloss of cvsplit 1: 0.5123
+Normal Spline - logloss of cvsplit 2: 0.5113
+Normal Spline - logloss of cvsplit 3: 0.5113
+Normal Spline - logloss of cvsplit 4: 0.5121
+Normal Spline - logloss of cvsplit 5: 0.5126
+Normal Spline - logloss of cvsplit 6: 0.5122
+Normal Spline - logloss of cvsplit 7: 0.5103
+Normal Spline - logloss of cvsplit 8: 0.5118
+Normal Spline - logloss of cvsplit 9: 0.5112
+Average Normal Spline logloss: 0.5117
+Tournament matchups only - Pred Mean:, 0.5007240241316582
+
+Tournament matchups only - Pred Mean:, 0.5007240241316582
+
+
+Pred mean: 0.15246647826968887
+
+Brier Score: 0.1825979928699245
+
+実行時間： 587.0秒
+0.17911

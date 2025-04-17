@@ -1,0 +1,29 @@
+2025-03-04 04:55:08.865488
+2023_solution_300boostround
+これはbase(exp003)をboostround300にしたもの
+
+mean_iteration: 299.0
+mean_val_mae: 9.457887026736852
+min_val_mae: 9.442172945539083
+
+最適ブーストラウンド: [299, 299, 299, 299, 299, 299, 299, 299, 299, 299]
+検証MAE: [9.457349312405714, 9.452517253657245, 9.468791100571845, 9.446244306417146, 9.443942393332842, 9.459519351488836, 9.486325220918388, 9.442172945539083, 9.46150253828274, 9.46050584475468]
+
+Normal Spline - logloss of cvsplit 0: 0.5142
+Normal Spline - logloss of cvsplit 1: 0.5146
+Normal Spline - logloss of cvsplit 2: 0.5142
+Normal Spline - logloss of cvsplit 3: 0.5139
+Normal Spline - logloss of cvsplit 4: 0.5133
+Normal Spline - logloss of cvsplit 5: 0.5138
+Normal Spline - logloss of cvsplit 6: 0.5133
+Normal Spline - logloss of cvsplit 7: 0.5128
+Normal Spline - logloss of cvsplit 8: 0.5144
+Normal Spline - logloss of cvsplit 9: 0.5135
+Average Normal Spline logloss: 0.5138
+
+Pred mean: 0.14593139950522463
+
+Brier Score: 0.1893800094106193
+
+実行時間： 450.6秒
+0.17989

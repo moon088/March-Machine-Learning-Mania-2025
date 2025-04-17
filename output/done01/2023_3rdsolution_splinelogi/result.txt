@@ -1,0 +1,29 @@
+2025-03-07 03:27:19.889086
+2023_3rdsolution_splinelogi
+これはbase(exp003)をロジスティック補正したもの
+
+mean_iteration: 505.3
+mean_val_mae: 9.42899331127708
+min_val_mae: 9.406241182143052
+
+最適ブーストラウンド: [623, 579, 490, 491, 539, 499, 366, 461, 541, 464]
+test-mae-mean: [9.417452859159884, 9.420124504173994, 9.439467599546811, 9.416660966428534, 9.406241182143052, 9.427329376043925, 9.47525793847609, 9.416652762182633, 9.433031882382283, 9.437714042233603]
+
+Normal Spline - logloss of cvsplit 0: 0.5058
+Normal Spline - logloss of cvsplit 1: 0.5066
+Normal Spline - logloss of cvsplit 2: 0.5056
+Normal Spline - logloss of cvsplit 3: 0.5052
+Normal Spline - logloss of cvsplit 4: 0.5070
+Normal Spline - logloss of cvsplit 5: 0.5076
+Normal Spline - logloss of cvsplit 6: 0.5066
+Normal Spline - logloss of cvsplit 7: 0.5058
+Normal Spline - logloss of cvsplit 8: 0.5074
+Normal Spline - logloss of cvsplit 9: 0.5073
+Average Platt Scaling logloss: 0.5065
+
+Pred mean: 0.153457633073481
+
+Brier Score: 0.1781724919440938
+
+実行時間： 813.7秒
+0.17548

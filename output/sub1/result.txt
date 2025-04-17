@@ -1,0 +1,86 @@
+
+-----2025-----
+2025-03-20 17:11:08.972961
+sub1
+best feature
+
+mean_iteration: 592.1
+mean_val_rmse: 11.885706634351989
+min_val_rmse: 11.842420414485307
+
+最適ブーストラウンド: [683, 602, 701, 528, 580, 673, 489, 494, 521, 650]
+test-rmse-mean: [11.867504474872657, 11.898586743823312, 11.842420414485307, 11.877605752876201, 11.892415891184006, 11.874249727566584, 11.90941559525665, 11.9296877538275, 11.887287649381168, 11.877892340246508]
+
+Normal Spline - logloss of cvsplit 0: 0.5067
+Normal Spline - logloss of cvsplit 1: 0.5076
+Normal Spline - logloss of cvsplit 2: 0.5053
+Normal Spline - logloss of cvsplit 3: 0.5074
+Normal Spline - logloss of cvsplit 4: 0.5070
+Normal Spline - logloss of cvsplit 5: 0.5065
+Normal Spline - logloss of cvsplit 6: 0.5083
+Normal Spline - logloss of cvsplit 7: 0.5082
+Normal Spline - logloss of cvsplit 8: 0.5059
+Normal Spline - logloss of cvsplit 9: 0.5058
+Average Platt Scaling logloss: 0.5069
+
+-----Feature Importance (Average Gain)-----
+seed_diff: 15423.7920
+quality_diff: 12133.1507
+T1_PointDiffmean: 4032.6832
+T2_PointDiffmean: 4009.8799
+rank_diff: 3643.5179
+T2_FGMmean: 2270.4068
+T1_FGMmean: 2133.8951
+T2_EFG_SUMmean: 1914.3068
+T1_EFG_SUMmean: 1883.6337
+T1_TeamID: 1793.1731
+T2_TeamID: 1775.1597
+T2_Scoremean: 1653.1735
+T1_Scoremean: 1575.9247
+T1_opponent_EFG_SUMmean: 1561.8872
+T2_Astmean: 1536.3521
+T2_opponent_EFG_SUMmean: 1499.8700
+T1_opponent_DRmean: 1495.2254
+T1_Astmean: 1488.0933
+T2_opponent_DRmean: 1485.5674
+T1_FGAmean: 1452.3108
+win_ratio_14d_diff: 1395.9037
+T2_REB_RATEmean: 1386.6331
+T2_FGAmean: 1363.1641
+T1_Blkmean: 1342.9790
+T1_REB_RATEmean: 1341.1823
+T1_opponent_Scoremean: 1339.6469
+T1_opponent_TOmean: 1336.8280
+T2_Blkmean: 1326.9306
+T2_opponent_TOmean: 1320.7241
+T2_opponent_Scoremean: 1308.4896
+T2_opponent_FGMmean: 1289.8743
+T1_opponent_TO_RATIOmean: 1286.9606
+T2_PFmean: 1270.5884
+T1_Stlmean: 1253.8116
+T2_FT_RATEmean: 1252.9291
+T1_PFmean: 1246.5766
+T1_FT_RATEmean: 1244.4174
+T2_opponent_TO_RATIOmean: 1241.9795
+T2_opponent_PFmean: 1235.4845
+T2_Stlmean: 1232.9532
+T2_TO_RATIOmean: 1230.5575
+T1_opponent_PFmean: 1224.6452
+T1_TO_RATIOmean: 1209.9369
+T1_opponent_FGMmean: 1209.4872
+T2_opponent_FGAmean: 1172.2470
+T2_POSS_RATEmean: 1161.6901
+T1_opponent_FGAmean: 1159.8592
+T2_opponent_REB_RATEmean: 1159.8590
+T2_opponent_Blkmean: 1152.4953
+T1_DRmean: 1146.7403
+T1_opponent_Blkmean: 1138.5870
+T2_DRmean: 1137.6601
+T1_POSS_RATEmean: 1131.7813
+T1_opponent_REB_RATEmean: 1120.2538
+
+
+
+Pred mean: 0.19382989495101668
+
+実行時間： 1178.1秒

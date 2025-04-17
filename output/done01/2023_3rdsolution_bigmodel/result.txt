@@ -1,0 +1,29 @@
+2025-03-04 21:10:15.432708
+2023_3rdsolution_bigmodel
+これはbase(exp003)の探索範囲をかなり広げて実施(depth=3->5, min_child=40->20)
+
+mean_iteration: 291.3
+mean_val_mae: 9.453891182895108
+min_val_mae: 9.428869946518413
+
+最適ブーストラウンド: [294, 320, 282, 297, 292, 294, 264, 329, 287, 254]
+検証MAE: [9.443798249090154, 9.454222004548104, 9.459314437040677, 9.433419518741163, 9.428869946518413, 9.455181898715512, 9.501851676003547, 9.430685899733499, 9.448514948524817, 9.483053250035187]
+
+Normal Spline - logloss of cvsplit 0: 0.5153
+Normal Spline - logloss of cvsplit 1: 0.5162
+Normal Spline - logloss of cvsplit 2: 0.5181
+Normal Spline - logloss of cvsplit 3: 0.5164
+Normal Spline - logloss of cvsplit 4: 0.5161
+Normal Spline - logloss of cvsplit 5: 0.5165
+Normal Spline - logloss of cvsplit 6: 0.5171
+Normal Spline - logloss of cvsplit 7: 0.5154
+Normal Spline - logloss of cvsplit 8: 0.5171
+Normal Spline - logloss of cvsplit 9: 0.5170
+Average Normal Spline logloss: 0.5165
+
+Pred mean: 0.1652306060115699
+
+Brier Score: 0.1831482276023624
+
+実行時間： 687.0秒
+0.1824

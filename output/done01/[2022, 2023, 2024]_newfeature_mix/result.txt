@@ -1,0 +1,74 @@
+2025-03-10 02:26:46.709105
+[2022, 2023, 2024]_newfeature_mix
+four factors入れて3年分やったやつ
+
+予測年度: 2022
+mean iterations: [420, 419, 370, 395, 408, 444, 368, 408, 464, 387]
+最適ブーストラウンド: [420, 419, 370, 395, 408, 444, 368, 408, 464, 387]
+val_mae: [9.406906209074322, 9.401887867851496, 9.417598749371916, 9.394977827919945, 9.443680738586925, 9.364080664965202, 9.436839433304407, 9.400798578242403, 9.413818485152058, 9.404743204469323]
+-----
+Normal Spline - logloss of cvsplit 0: 11.9691
+Normal Spline - logloss of cvsplit 1: 10.9500
+Normal Spline - logloss of cvsplit 2: 11.0606
+Normal Spline - logloss of cvsplit 3: 10.3914
+Normal Spline - logloss of cvsplit 4: 12.7025
+Normal Spline - logloss of cvsplit 5: 12.0173
+Normal Spline - logloss of cvsplit 6: 13.1884
+Normal Spline - logloss of cvsplit 7: 12.3047
+Normal Spline - logloss of cvsplit 8: 12.2531
+Normal Spline - logloss of cvsplit 9: 8.8950
+Average Normal Spline logloss: 11.5732
+evalmetrics
+BrierScore: 0.8321698360793626
+RMSE: 0.9122334328884042
+MAE: 0.8854627436096495
+LogLoss: 3.0702010892061304
+予測年度: 2023
+mean iterations: [450, 479, 514, 458, 443, 442, 442, 418, 425, 479]
+最適ブーストラウンド: [450, 479, 514, 458, 443, 442, 442, 418, 425, 479]
+val_mae: [9.471939114897719, 9.455414555292851, 9.47191396723149, 9.448681289916088, 9.478431704944464, 9.465626750839771, 9.491839129277182, 9.460448354873176, 9.475421713668158, 9.45115911648457]
+-----
+Normal Spline - logloss of cvsplit 0: 12.0950
+Normal Spline - logloss of cvsplit 1: 12.7376
+Normal Spline - logloss of cvsplit 2: 13.1454
+Normal Spline - logloss of cvsplit 3: 12.4656
+Normal Spline - logloss of cvsplit 4: 11.9937
+Normal Spline - logloss of cvsplit 5: 12.7514
+Normal Spline - logloss of cvsplit 6: 12.4313
+Normal Spline - logloss of cvsplit 7: 13.0812
+Normal Spline - logloss of cvsplit 8: 13.1313
+Normal Spline - logloss of cvsplit 9: 12.3662
+Average Normal Spline logloss: 12.6199
+evalmetrics
+BrierScore: 0.83728188605776
+RMSE: 0.9150310847494526
+MAE: 0.8851693781663141
+LogLoss: 3.1419739457444753
+予測年度: 2024
+mean iterations: [400, 424, 499, 385, 478, 456, 436, 432, 416, 440]
+最適ブーストラウンド: [400, 424, 499, 385, 478, 456, 436, 432, 416, 440]
+val_mae: [9.48723881325003, 9.494038696404013, 9.432706551108115, 9.484579453402468, 9.455293157079108, 9.46496694501615, 9.451595025003723, 9.45732821796155, 9.503011306864481, 9.466715246397316]
+-----
+Normal Spline - logloss of cvsplit 0: 12.4297
+Normal Spline - logloss of cvsplit 1: 13.7256
+Normal Spline - logloss of cvsplit 2: 13.1115
+Normal Spline - logloss of cvsplit 3: 13.1341
+Normal Spline - logloss of cvsplit 4: 13.6984
+Normal Spline - logloss of cvsplit 5: 13.0850
+Normal Spline - logloss of cvsplit 6: 12.4065
+Normal Spline - logloss of cvsplit 7: 12.4281
+Normal Spline - logloss of cvsplit 8: 13.1742
+Normal Spline - logloss of cvsplit 9: 12.7593
+Average Normal Spline logloss: 12.9952
+evalmetrics
+BrierScore: 0.822032112577874
+RMSE: 0.9066598659794499
+MAE: 0.8711856409937572
+LogLoss: 3.0943833373207212
+
+-----final evaluate metrics-----
+mean_brier: 0.8304946115716655
+mean_rmse: 0.9113081278724356
+mean_mae: 0.8806059209232403
+mean_logloss: 3.1021861240904425
+実行時間： 2200.2秒

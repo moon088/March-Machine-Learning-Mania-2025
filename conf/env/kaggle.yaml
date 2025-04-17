@@ -1,0 +1,4 @@
+# Kaggle環境専用上書き
+input_dir: /kaggle/input
+output_dir: /kaggle/working/output
+exp_dir: /kaggle/working/output/experiments

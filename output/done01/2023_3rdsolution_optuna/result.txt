@@ -1,0 +1,21 @@
+2025-03-05 00:29:04.080570
+2023_3rdsolution_optuna
+これはbase(exp003)にOptuna最適化導入したやつ
+
+mean_iteration: 388.5
+mean_val_mae: 9.419169273878929
+min_val_mae: 9.418166485979553
+
+最適ブーストラウンド: [400, 377]
+検証MAE: [9.418166485979553, 9.420172061778304]
+
+Normal Spline - logloss of cvsplit 0: 0.5115
+Normal Spline - logloss of cvsplit 1: 0.5123
+Average Normal Spline logloss: 0.5119
+
+Pred mean: 0.2041584990449327
+
+Brier Score: 0.18083762974847536
+
+実行時間： 1639.7秒
+0.17799

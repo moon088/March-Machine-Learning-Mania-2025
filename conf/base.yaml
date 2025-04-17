@@ -1,0 +1,9 @@
+defaults:
+  - _self_
+  - override hydra/job_logging: none  # Hydra のログ出力を抑制
+
+dir:
+  input_dir: ../input
+  output_dir: ../output
+  src_path: ../src
+  conf_path: ../conf

@@ -1,0 +1,30 @@
+2025-03-10 09:29:28.200357
+[2022]_test
+これはbase(exp003)
+
+
+------予測年度: 2022------
+mean iterations: 368.5
+最適ブーストラウンド: [425, 312]
+val_mae: [9.458430955987602, 9.455001526336279]
+----------------------------------
+
+Normal Spline - logloss of cvsplit 0: 12.1342
+Normal Spline - logloss of cvsplit 1: 12.6178
+Average Normal Spline logloss: 12.3760
+
+
+-----evalmetrics-----
+BrierScore: 0.8435781562320387
+RMSE: 0.9184651088811369
+MAE: 0.8923225009767878
+LogLoss: 3.1477594767769688
+
+
+
+-----final evaluate metrics-----
+mean_brier: 0.8435781562320387
+mean_rmse: 0.9184651088811369
+mean_mae: 0.8923225009767878
+mean_logloss: 3.1477594767769688
+実行時間： 45.6秒

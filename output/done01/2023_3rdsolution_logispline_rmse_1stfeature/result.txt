@@ -1,0 +1,29 @@
+2025-03-07 04:16:56.030091
+2023_3rdsolution_logispline_rmse_1stfeature
+これはbase(exp003)にロジスティック補完、RMSE、１位特徴量追加したもの
+
+mean_iteration: 509.5
+mean_val_rmse: 11.87189719001739
+min_val_rmse: 11.839612942772987
+
+最適ブーストラウンド: [544, 477, 504, 476, 581, 456, 494, 502, 540, 521]
+test-rmse-mean: [11.847402894870694, 11.86969384870585, 11.882742382483757, 11.839612942772987, 11.855706288893867, 11.880881512004382, 11.920028008563104, 11.862800750448105, 11.86326753406691, 11.896835737364258]
+
+Normal Spline - logloss of cvsplit 0: 0.5069
+Normal Spline - logloss of cvsplit 1: 0.5074
+Normal Spline - logloss of cvsplit 2: 0.5072
+Normal Spline - logloss of cvsplit 3: 0.5060
+Normal Spline - logloss of cvsplit 4: 0.5084
+Normal Spline - logloss of cvsplit 5: 0.5091
+Normal Spline - logloss of cvsplit 6: 0.5085
+Normal Spline - logloss of cvsplit 7: 0.5072
+Normal Spline - logloss of cvsplit 8: 0.5082
+Normal Spline - logloss of cvsplit 9: 0.5088
+Average Platt Scaling logloss: 0.5078
+
+Pred mean: 0.14853313981728128
+
+Brier Score: 0.17931232390752733
+
+実行時間： 933.4秒
+0.17733
