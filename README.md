@@ -7,3 +7,8 @@
 
 ## 結果
 全1727チーム中267位([Leaders board](https://www.kaggle.com/competitions/march-machine-learning-mania-2025/leaderboard))
+
+## 自分用メモ(来年のバスケコンペに向けて)
+- ほぼすべての上位解法が[radder solution](https://www.kaggle.com/code/raddar/vilnius-ncaa)ベースで作られている
+- 過去年度の上位解法として、radder or ELOratingだったが、Eloはほぼ使われていない
+- 来年はradderとgoto_conversionの解法に加えて自分の解法をアンサンブルすることを考える
