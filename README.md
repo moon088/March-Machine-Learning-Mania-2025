@@ -12,4 +12,4 @@
 - ほぼすべての上位解法が[radder solution](https://www.kaggle.com/code/raddar/vilnius-ncaa)ベースで作られている
 - 過去年度の上位解法として、radder or ELOratingだったが、Eloはほぼ使われていない
 - 来年はradderとgoto_conversionの解法に加えて自分の解法をアンサンブルすることを考える
-- 訓練データ数十万、予測試合数123試合予測試合がかなり少ないのもあってキャリアビジョンや平滑化をもっと工夫するのがよさそう [4th solution](https://www.kaggle.com/competitions/march-machine-learning-mania-2025/discussion/572466)
+- 訓練データ数十万、予測試合数123試合と予測試合がかなり少ないのもあってキャリアビジョンや平滑化をもっと工夫するのがよさそう [4th solution](https://www.kaggle.com/competitions/march-machine-learning-mania-2025/discussion/572466)
